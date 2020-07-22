@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>AddCityServlet</servlet-name>
+        <servlet-class>com.ahmedelsheikh.java.ee.AddCityServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteCityServlet</servlet-name>
+        <servlet-class>com.ahmedelsheikh.java.ee.DeleteCityServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateCityServlet</servlet-name>
+        <servlet-class>com.ahmedelsheikh.java.ee.UpdateCityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCityServlet</servlet-name>
+        <url-pattern>/addCity</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteCityServlet</servlet-name>
+        <url-pattern>/deleteCity</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateCityServlet</servlet-name>
+        <url-pattern>/updateCity</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
