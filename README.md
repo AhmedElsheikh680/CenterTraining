@@ -15,7 +15,8 @@ Tools & Technologies
 ====================
 -  JSP
 - Servlet
-- Hibernate
+- Hibernate (4.3.x)
+- Persistance JPA2.1 (4.3.x)
 - MySQL (5.1.49)
 - Appache Tomcat v9.0, port 8081
 - HTML
